@@ -107,7 +107,7 @@ Kassi::Application.configure do
     ActionMailer::Base.smtp_settings = {
        :address => "smtp.gmail.com",
        :port => "587",
-       :domain => "192.168.0.106:8080",
+       :domain => "localhost:3000",
        :user_name => 'tainguyem@gmail.com',
        :password => '0948157548a',
        :authentication => "plain",
